@@ -3,50 +3,86 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SM Sport Performance | Garage, Servicing & Tuning</title>
-  <meta name="description" content="SM Sport Performance — independent garage for servicing, MOT, diagnostics, repairs and performance tuning.">
+  <title>SM Motoring Services</title>
+  <meta name="description" content="SM Motoring Services, Houghton-le-Spring. Full interim car service from £99, £149 with MOT. Diagnostics, tyres, repairs, performance and 24/7 recovery across the North East.">
+  <meta name="theme-color" content="#0b0710">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+  <a href="tel:+441918100058" class="topbar">
+    <span class="topbar__dot" aria-hidden="true"></span>
+    Broken down? <strong>24/7 recovery</strong> — call 0191 810 0058
+  </a>
+
   <header class="nav" id="top">
     <div class="container nav__inner">
-      <a href="#top" class="logo" aria-label="SM Sport Performance home">
-        <span class="logo__mark">SM</span>
-        <span class="logo__text">Sport<br>Performance</span>
+      <a href="#top" class="logo" aria-label="SM Motoring Services home">
+        <span class="logo__sm">SM</span>
+        <span class="logo__text">Motoring<br>Services</span>
       </a>
-      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
-        <span></span><span></span><span></span>
-      </button>
       <nav class="nav__menu" id="nav-menu">
         <a href="#services">Services</a>
+        <a href="#pricing">Prices</a>
+        <a href="#how">How it works</a>
         <a href="#performance">Performance</a>
-        <a href="#why">Why us</a>
-        <a href="#reviews">Reviews</a>
         <a href="#contact">Contact</a>
         <a href="#book" class="btn btn--small">Book now</a>
       </nav>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__bg" aria-hidden="true">
+        <span class="hero__tag">SM</span>
+      </div>
       <div class="container hero__inner">
-        <p class="eyebrow">Independent garage &amp; performance specialists</p>
-        <h1>Serviced right.<br><span class="accent">Driven harder.</span></h1>
-        <p class="hero__lead">From routine servicing and MOT prep to diagnostics, repairs and dyno-proven tuning — dealer-level expertise without the dealer price tag.</p>
-        <div class="hero__cta">
-          <a href="#book" class="btn">Book a service</a>
-          <a href="tel:+440000000000" class="btn btn--ghost">Call 00000 000000</a>
+        <div class="hero__copy">
+          <p class="eyebrow">Recovery, repairs, tyres &amp; servicing</p>
+          <p class="pill"><span class="pill__dot" aria-hidden="true"></span>As seen on TikTok — 2.6M+ likes</p>
+          <h1>Full interim car service from <span class="grad">£99</span></h1>
+          <p class="hero__lead">Oil, filters, brakes, diagnostics and a stamped service book, with no hidden fees. Houghton-le-Spring's most talked-about car service.</p>
+          <div class="hero__cta">
+            <a href="#book" class="btn">Book your service <span aria-hidden="true">→</span></a>
+            <a href="#pricing" class="btn btn--ghost">See what's included</a>
+          </div>
+          <ul class="chips">
+            <li>15+ years</li>
+            <li>Fully synthetic oil</li>
+            <li>5-star reviews</li>
+            <li>Service book stamped</li>
+          </ul>
         </div>
-        <ul class="hero__stats">
-          <li><strong data-count="15">0</strong><span>Years' experience</span></li>
-          <li><strong data-count="4000">0</strong><span>Cars serviced</span></li>
-          <li><strong>12&nbsp;mo</strong><span>Parts &amp; labour warranty</span></li>
-        </ul>
+
+        <aside class="offer" aria-label="Most popular package">
+          <p class="offer__label">Most popular</p>
+          <h2 class="offer__title">Full interim + MOT</h2>
+          <p class="offer__price"><span class="offer__cur">£</span>149 <span class="offer__inc">inc. MOT</span></p>
+          <ul class="ticks">
+            <li>Oil, filters &amp; brakes</li>
+            <li>Diagnostic scan &amp; health check</li>
+            <li>Service book stamped</li>
+            <li>Written condition report</li>
+            <li><strong>MOT test included</strong> (RRP £50)</li>
+          </ul>
+          <p class="offer__alt">or <strong>£99</strong> without MOT</p>
+          <a href="#book" class="btn btn--block" data-service="Interim service + MOT (£149)">Book now <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="strip" aria-label="Key facts">
+      <div class="container strip__inner">
+        <div><strong>15+</strong><span>Years keeping the North East moving</span></div>
+        <div><strong>2.6M+</strong><span>Likes on TikTok</span></div>
+        <div><strong>24/7</strong><span>Vehicle recovery</span></div>
+        <div><strong>£129</strong><span>The most you'll ever pay for a service</span></div>
       </div>
     </section>
 
@@ -54,65 +90,141 @@
       <div class="container">
         <header class="section__head">
           <p class="eyebrow">What we do</p>
-          <h2>Garage services</h2>
-          <p>Every make and model looked after with genuine or OE-quality parts and manufacturer-spec procedures.</p>
+          <h2>Everything your car needs. <span class="grad">One garage.</span></h2>
+          <p>Our fully equipped garage and tyre bay handles everything from a quick tyre swap to a full service, repair or roadside recovery.</p>
         </header>
         <div class="grid grid--services">
           <article class="card">
             <svg class="card__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg>
             <h3>Servicing</h3>
-            <p>Interim, full and major services that keep your warranty intact and your car running like new.</p>
+            <p>Full interim service from £99 with fully synthetic oil, a diagnostic scan and a stamped service book.</p>
           </article>
           <article class="card">
             <svg class="card__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11l3 3 8-8M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg>
-            <h3>MOT preparation</h3>
-            <p>Pre-MOT health checks and any remedial work done up front, so there are no surprises on test day.</p>
+            <h3>MOT</h3>
+            <p>Add an MOT to your interim service for £149 in total and get both done in one visit.</p>
+          </article>
+          <article class="card card--hot">
+            <svg class="card__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h2l2-6h7l3 6h4M5 17a2 2 0 1 0 4 0M15 17a2 2 0 1 0 4 0M14 11V6h3l3 5"/></svg>
+            <h3>24/7 recovery</h3>
+            <p>Stuck on the roadside? We'll come and get you, day or night, anywhere in the North East.</p>
+            <a href="tel:+441918100058" class="card__link">Call 0191 810 0058 →</a>
           </article>
           <article class="card">
             <svg class="card__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>
             <h3>Diagnostics</h3>
-            <p>Dealer-level diagnostic equipment to trace warning lights, faults and electrical gremlins fast.</p>
+            <p>Warning light on? We'll scan the car, find the fault and tell you what it'll cost to fix.</p>
           </article>
           <article class="card">
             <svg class="card__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M12 3v6M12 15v6M3 12h6M15 12h6"/></svg>
-            <h3>Brakes &amp; suspension</h3>
-            <p>Pads, discs, fluid, shocks, springs and alignment — from OE replacement to big-brake upgrades.</p>
+            <h3>Tyres</h3>
+            <p>Tyre fitting and balancing in our own tyre bay.</p>
           </article>
           <article class="card">
             <svg class="card__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 14h16M4 10h16M7 6h10l3 4v8H4v-8z"/></svg>
-            <h3>Clutch &amp; gearbox</h3>
-            <p>Clutch replacements, DSG / auto servicing, dual-mass flywheels and uprated clutch kits.</p>
+            <h3>Repairs</h3>
+            <p>Brakes, exhausts, suspension and bigger mechanical jobs, diagnosed and fixed properly.</p>
           </article>
           <article class="card">
-            <svg class="card__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg>
-            <h3>Air con &amp; repairs</h3>
-            <p>Air-con regas, timing belts, cooling systems and general mechanical repairs of every kind.</p>
+            <svg class="card__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>
+            <h3>Performance</h3>
+            <p>Remapping and tuning for more power and sharper response.</p>
+          </article>
+          <article class="card">
+            <svg class="card__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21V9l9-6 9 6v12M7 21v-8h10v8M7 17h10"/></svg>
+            <h3>Storage</h3>
+            <p>Secure vehicle storage. Give us a call to talk through what you need.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section section--dark" id="performance">
+    <section class="section section--alt" id="pricing">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Prices</p>
+          <h2>Honest, <span class="grad">fixed-price</span> servicing</h2>
+          <p>No hidden fees. The most you'll ever pay for a service with us is £129, and that's only if your car needs a specialist oil.</p>
+        </header>
+        <div class="grid grid--pricing">
+          <article class="price">
+            <h3>Full interim service</h3>
+            <p class="price__amount"><span>£</span>99</p>
+            <ul class="ticks">
+              <li>Oil and oil filter change (fully synthetic)</li>
+              <li>Brake inspection</li>
+              <li>Tyre check and pressures set</li>
+              <li>Fluid top-ups</li>
+              <li>Diagnostic scan &amp; health check</li>
+              <li>Service book stamped</li>
+            </ul>
+            <a href="#book" class="btn btn--block btn--ghost" data-service="Full interim service (£99)">Book service</a>
+          </article>
+          <article class="price price--featured">
+            <span class="price__tag">Best value</span>
+            <h3>Full interim + MOT</h3>
+            <p class="price__amount"><span>£</span>149</p>
+            <ul class="ticks">
+              <li>Everything in the full interim service</li>
+              <li>Written condition report</li>
+              <li><strong>MOT test included</strong> (RRP £50)</li>
+              <li>Both done in one visit</li>
+            </ul>
+            <a href="#book" class="btn btn--block" data-service="Interim service + MOT (£149)">Book service + MOT</a>
+          </article>
+        </div>
+        <p class="price__small">Specialist oil, where required, is +£30. Extra parts such as spark plugs and cabin filters are charged at cost.</p>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">How it works</p>
+          <h2>Sorted in <span class="grad">three steps</span></h2>
+        </header>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">01</span>
+            <h3>Make an appointment</h3>
+            <p>Tell us what you need, whether it's a routine service or emergency help, and we'll book a time that works for you.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">02</span>
+            <h3>Get your vehicle fixed</h3>
+            <p>Bring it to our garage or let us recover it. Our mechanics diagnose the problem and put it right.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">03</span>
+            <h3>Pay, no surprises</h3>
+            <p>Transparent pricing with no hidden fees, so you know exactly what to expect before you pay.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="performance">
       <div class="container split">
         <div>
           <p class="eyebrow">Performance</p>
-          <h2>More power. <span class="accent">Done properly.</span></h2>
-          <p>Our performance work is built on the same foundation as our servicing: do it right, test it, and stand behind it. Every project starts with a health check so the gains are reliable as well as real.</p>
+          <h2>More power. <span class="grad">Done properly.</span></h2>
+          <p>We take the same care with performance work as we do with servicing. We check the car over first so the extra power is reliable as well as real.</p>
           <ul class="ticks">
-            <li>ECU remapping — Stage 1, 2 &amp; custom</li>
-            <li>Before &amp; after power runs</li>
+            <li>ECU remapping and tuning</li>
             <li>Exhausts, intakes &amp; intercoolers</li>
-            <li>Coilovers, geometry &amp; brake upgrades</li>
-            <li>Track-day preparation</li>
+            <li>Suspension &amp; brake upgrades</li>
           </ul>
-          <a href="#book" class="btn">Discuss your project</a>
+          <a href="#book" class="btn" data-service="Performance / remapping">Talk to us about your car</a>
         </div>
-        <div class="dyno" aria-label="Example power curve: stock vs Stage 1">
+        <div class="dyno" aria-label="Example power curve: stock vs tuned">
           <div class="dyno__head">
             <span>Example power curve</span>
-            <span class="dyno__legend"><i class="l-stock"></i>Stock <i class="l-tuned"></i>Stage 1</span>
+            <span class="dyno__legend"><i class="l-stock"></i>Stock <i class="l-tuned"></i>Tuned</span>
           </div>
           <svg viewBox="0 0 400 240" class="dyno__chart" role="img" aria-label="Line chart: tuned curve sits above stock across the rev range">
+            <defs>
+              <linearGradient id="tuned" x1="0" x2="1"><stop offset="0" stop-color="#8b2cff"/><stop offset="1" stop-color="#ff2db4"/></linearGradient>
+            </defs>
             <g class="dyno__grid">
               <line x1="30" y1="40" x2="390" y2="40"/><line x1="30" y1="90" x2="390" y2="90"/>
               <line x1="30" y1="140" x2="390" y2="140"/><line x1="30" y1="190" x2="390" y2="190"/>
@@ -121,52 +233,41 @@
             <path class="dyno__tuned" d="M30 195 C 90 150, 140 80, 200 60 S 320 42, 390 62"/>
             <text x="30" y="225">2k</text><text x="200" y="225">4.5k</text><text x="390" y="225" text-anchor="end">7k rpm</text>
           </svg>
-          <p class="dyno__note">Illustrative only — gains depend on vehicle, condition and fuel.</p>
+          <p class="dyno__note">Illustrative only. Gains depend on vehicle, condition and fuel.</p>
         </div>
       </div>
     </section>
 
-    <section class="section" id="why">
-      <div class="container">
-        <header class="section__head">
-          <p class="eyebrow">Why choose us</p>
-          <h2>The garage you'll actually trust</h2>
-        </header>
-        <div class="grid grid--why">
-          <div class="why"><span class="why__num">01</span><h3>Upfront pricing</h3><p>Fixed quotes before work starts. No extra work without your say-so.</p></div>
-          <div class="why"><span class="why__num">02</span><h3>Photo &amp; video updates</h3><p>See exactly what we see — worn parts are shown, not just described.</p></div>
-          <div class="why"><span class="why__num">03</span><h3>Warranty-safe</h3><p>Manufacturer schedules and quality parts keep your warranty valid.</p></div>
-          <div class="why"><span class="why__num">04</span><h3>12-month guarantee</h3><p>Parts and labour covered for a year, because we stand by our work.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section--alt" id="reviews">
+    <section class="section" id="reviews">
       <div class="container">
         <header class="section__head">
           <p class="eyebrow">Reviews</p>
-          <h2>What our customers say</h2>
-          <p class="muted">Placeholder reviews — replace with your real Google reviews.</p>
+          <h2>Don't just take <span class="grad">our word</span> for it</h2>
+          <p class="note">Placeholder reviews. Replace with real Google reviews before going live.</p>
         </header>
         <div class="grid grid--reviews">
-          <blockquote class="review"><div class="stars" aria-label="5 out of 5">★★★★★</div><p>“Customer review goes here. Keep it short and specific about the job you did.”</p><footer>— Customer name, car model</footer></blockquote>
-          <blockquote class="review"><div class="stars" aria-label="5 out of 5">★★★★★</div><p>“Customer review goes here. Mention honesty, pricing or turnaround time.”</p><footer>— Customer name, car model</footer></blockquote>
-          <blockquote class="review"><div class="stars" aria-label="5 out of 5">★★★★★</div><p>“Customer review goes here. A performance or tuning job works well here.”</p><footer>— Customer name, car model</footer></blockquote>
+          <blockquote class="review"><div class="stars" aria-label="5 out of 5">★★★★★</div><p>“Customer review goes here. Keep it short and specific about the job.”</p><footer>Customer name · Car</footer></blockquote>
+          <blockquote class="review"><div class="stars" aria-label="5 out of 5">★★★★★</div><p>“Customer review goes here. Mention the price, the recovery or the turnaround.”</p><footer>Customer name · Car</footer></blockquote>
+          <blockquote class="review"><div class="stars" aria-label="5 out of 5">★★★★★</div><p>“Customer review goes here. A performance or repair job works well here.”</p><footer>Customer name · Car</footer></blockquote>
         </div>
       </div>
     </section>
 
-    <section class="section" id="book">
+    <section class="section section--alt" id="book">
       <div class="container split split--form">
-        <div>
+        <div id="contact">
           <p class="eyebrow">Book in</p>
-          <h2>Request a booking</h2>
-          <p>Tell us about your car and what it needs. We'll confirm a slot and a fixed price — usually the same working day.</p>
-          <ul class="contact-list" id="contact">
-            <li><strong>Phone</strong><a href="tel:+440000000000">00000 000000</a></li>
-            <li><strong>Email</strong><a href="mailto:hello@smsportperformance.example">hello@smsportperformance.example</a></li>
-            <li><strong>Address</strong><span>Unit 1, Example Industrial Estate, Town, AB1 2CD</span></li>
-            <li><strong>Hours</strong><span>Mon–Fri 8:00–17:30 · Sat 9:00–13:00</span></li>
+          <h2>Book your <span class="grad">service</span></h2>
+          <p>Send us the details and we'll get back to you to confirm a time. Broken down? Don't wait for a reply. Call us any time, day or night.</p>
+          <a href="tel:+441918100058" class="callout">
+            <span class="callout__label">24/7 recovery &amp; bookings</span>
+            <span class="callout__num">0191 810 0058</span>
+          </a>
+          <ul class="contact-list">
+            <li><strong>Email</strong><a href="mailto:info@smmotoring.co.uk">info@smmotoring.co.uk</a></li>
+            <li><strong>Address</strong><a href="https://www.google.com/maps/search/?api=1&amp;query=SM+Motoring+Services+Edwin+Street+Houghton-le-Spring+DH5+8BH" target="_blank" rel="noopener">SM Motoring Services, Edwin Street, Houghton-le-Spring, DH5 8BH</a></li>
+            <li><strong>what3words</strong><a href="https://what3words.com/metals.jazz.soccer" target="_blank" rel="noopener">///metals.jazz.soccer</a></li>
+            <li><strong>Facebook</strong><a href="https://www.facebook.com/smrecoveryservices/" target="_blank" rel="noopener">SM Motoring Services</a></li>
           </ul>
         </div>
         <form class="form" id="booking-form" novalidate>
@@ -182,20 +283,21 @@
             <label>Service
               <select name="service" required>
                 <option value="">Choose…</option>
-                <option>Servicing</option>
-                <option>MOT preparation</option>
+                <option>Full interim service (£99)</option>
+                <option>Interim service + MOT (£149)</option>
                 <option>Diagnostics</option>
-                <option>Brakes &amp; suspension</option>
-                <option>Clutch &amp; gearbox</option>
-                <option>Air con &amp; repairs</option>
-                <option>Performance / tuning</option>
+                <option>Tyres</option>
+                <option>Repairs</option>
+                <option>Performance / remapping</option>
+                <option>Recovery</option>
+                <option>Storage</option>
                 <option>Something else</option>
               </select>
             </label>
             <label>Preferred date<input name="date" type="date"></label>
           </div>
-          <label>Details<textarea name="message" rows="4" placeholder="Make, model, symptoms, anything we should know…"></textarea></label>
-          <button type="submit" class="btn btn--block">Send booking request</button>
+          <label>Details<textarea name="message" rows="4" placeholder="Make, model, what's wrong, anything we should know…"></textarea></label>
+          <button type="submit" class="btn btn--block">Send booking request <span aria-hidden="true">→</span></button>
           <p class="form__status" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -204,13 +306,13 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <a href="#top" class="logo"><span class="logo__mark">SM</span><span class="logo__text">Sport<br>Performance</span></a>
-      <p>© <span id="year"></span> SM Sport Performance. All rights reserved.</p>
-      <a href="#top" class="footer__top">Back to top ↑</a>
+      <a href="#top" class="logo" aria-label="Back to top"><span class="logo__sm">SM</span><span class="logo__text">Motoring<br>Services</span></a>
+      <p>Edwin Street, Houghton-le-Spring, DH5 8BH · <a href="tel:+441918100058">0191 810 0058</a></p>
+      <p>© <span id="year"></span> SM Motoring Services</p>
     </div>
   </footer>
 
-  <a href="tel:+440000000000" class="call-fab" aria-label="Call us">
+  <a href="tel:+441918100058" class="call-fab" aria-label="Call 0191 810 0058">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
   </a>
 
