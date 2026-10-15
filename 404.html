@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Page not found · SM Sport Performance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0c0a0a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500&family=Russo+One&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #0c0a0a;
+      --paper: #f6f1ef;
+      --muted: #b5aaa8;
+      --red: #e3141b;
+      --red-deep: #a80d12;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      padding-block: 48px;
+      padding-left: max(16px, env(safe-area-inset-left, 0px));
+      padding-right: max(16px, env(safe-area-inset-right, 0px));
+      background: radial-gradient(60% 50% at 70% 30%, rgba(227, 20, 27, 0.18), transparent 70%), var(--ink);
+      color: var(--paper);
+      font: 400 1.0625rem/1.6 "Barlow", "Helvetica Neue", Arial, sans-serif;
+      text-align: center;
+    }
+    main { max-width: 34rem; }
+    .code {
+      margin: 0;
+      font: 400 clamp(5rem, 22vw, 10rem)/1 "Russo One", "Arial Black", sans-serif;
+      color: transparent;
+      -webkit-text-stroke: 2px var(--red);
+    }
+    h1 {
+      margin: 0.2em 0 0.4em;
+      font: 400 clamp(1.8rem, 6vw, 2.8rem)/1 "Russo One", "Arial Black", sans-serif;
+      text-transform: uppercase;
+    }
+    p { margin: 0 0 2rem; color: var(--muted); }
+    a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 52px;
+      padding: 0.8em 1.6em;
+      background: var(--red);
+      color: var(--paper);
+      font: 700 1rem/1.1 "Barlow Condensed", "Arial Narrow", sans-serif;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      clip-path: polygon(0 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%);
+    }
+    a:hover { background: var(--red-deep); }
+    a:focus-visible { outline: 2px solid var(--paper); outline-offset: -6px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="code" aria-hidden="true">404</p>
+    <h1>Wrong turn.</h1>
+    <p>This page doesn't exist. It may have moved, or the link has a typo.</p>
+    <a href="./" id="home">Back to SM Sport Performance</a>
+  </main>
+  <script>
+    // On GitHub Pages the site lives in a folder named after the repository.
+    (function () {
+      var first = location.pathname.split('/')[1];
+      var home = /\.github\.io$/.test(location.hostname) && first ? '/' + first + '/' : '/';
+      document.getElementById('home').href = home;
+    })();
+  </script>
+</body>
+</html>
