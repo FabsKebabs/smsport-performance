@@ -20,7 +20,7 @@
 
   // Reveal sections and animate counters when they come into view.
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const revealTargets = document.querySelectorAll('.card, .price, .step, .review, .dyno, .section__head');
+  const revealTargets = document.querySelectorAll('.card, .step, .feature, .section__head');
   revealTargets.forEach((el) => el.classList.add('reveal'));
 
   const countUp = (el) => {
@@ -54,7 +54,7 @@
 
   // Booking form: validate, then hand off to the visitor's email client.
   // Swap this for a form service (Formspree, Netlify Forms, etc.) to receive submissions directly.
-  const BOOKING_EMAIL = 'info@smmotoring.co.uk';
+  const BOOKING_EMAIL = 'hello@smsportperformance.co.uk';
   const form = document.getElementById('booking-form');
   const status = form.querySelector('.form__status');
   const dateInput = form.elements.date;
